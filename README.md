@@ -52,7 +52,7 @@ https://github.com/G1int/Glint_BE
 
 
 
-시스템 아키텍처
+### 시스템 아키텍처
 
 ![img.png](/images/img_2.png)
 
