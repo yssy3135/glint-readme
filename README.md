@@ -10,9 +10,7 @@ https://github.com/G1int/Glint_BE
 
 자신과 비슷한 직군, 업계, 학교 등과 미팅을 할 수 있도록 연결해 주는 서비스입니다.
 
-
-![img.png](/images/img.png)
-
+![img.png](images%2Fimg.png)
 
 
 | 🌟 LOGIN | **랜딩페이지 / 소셜(카카오) 로그인** |
@@ -48,13 +46,12 @@ https://github.com/G1int/Glint_BE
     4. 정적 팩토리 메서드 사용
     5. setter 금지
 
-![img.png](/images/img_1.png)
-
+![img_1.png](images%2Fimg_1.png)
 
 
 시스템 아키텍처
 
-![img.png](/images/img_2.png)
+![img_2.png](images%2Fimg_2.png)
 
 - route53 dns서버 요청을 받아 alb로 연결 내부 ec2로 라우팅 nginx 리버스 프록시를 통해 최종 서버로 요청될 수 있도록 구성
 
