@@ -60,27 +60,22 @@ https://github.com/G1int/Glint_BE
 
 ![img.png](/images/img_2.png)
 
-- route53 dns서버 요청을 받아 alb로 연결 내부 ec2로 라우팅 nginx 리버스 프록시를 통해 최종 서버로 요청될 수 있도록 구성
-
-서버 상호작용하는 시스템 구성
-
+- Route53 DNS서버 요청을 받아 ALB를 통해 내부 ec2로 라우팅 nginx 리버스 프록시를 통해 최종 서버로 요청될 수 있도록 구성
 - Parameter Store를 통핸 환경변수 관리
 - RDS (mysql) 저장소 사용
-- elastiCache(redis) 캐싱, token 저장소 활용
-- s3 정적파일 (이미지 저장)
+- ElastiCache(redis) 캐싱, Token 저장소 활용
+- S3 정적파일 관리(이미지 저장)
 - MQ (채팅 프로토콜의 외부브로커)
 
 **배포 자동화 (CI/CD)**
 
 github의 프로젝트를 pull 받아 build 이후 도커 이미지화 하여 배포되도록 구성하였고
-
-jenkins + github 통해 release 브랜치 merge event 발생시 배포되도록 자동화 하였습니다.
-
+jenkins + github 통해 release 브랜치 merge event 발생시 배포되도록 자동화 하였습니다.</br>
 이슈에 대해 발빠르게 대응하여 개발의 효율을 높혔습니다.
 
 **nginx를 활용한  리버스 프록시, 로드밸런싱, 무중단 배포**
 
-- Nginx를 reverse proxy로 사용하여 로드밸런싱, 무중단 배포 환경을 구성하였습니다.
+- nginx를 reverse proxy로 사용하여 로드밸런싱, 무중단 배포 환경을 구성하였습니다.
 
 
 ### 주요 기능
