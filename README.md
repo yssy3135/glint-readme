@@ -1,7 +1,11 @@
 # 서비스 소개
 
 # Glint
+https://glint.swygbro.com/
+
+# Repository
 https://github.com/G1int/Glint_BE
+
 
 
 **'소개팅 앱은 있는데 왜 미팅 앱은 없는 거지?'**
